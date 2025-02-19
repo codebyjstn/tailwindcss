@@ -14,15 +14,17 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
-    <h1 class="text-3xl font-bold">This is the basic setup of TailwindCSS</h1>
-    <p>This is the test of my main Desktop final.</p>
-    <p>This is the test of my main MacBook final.</p>
+    <main class="h-screen">
+      <section class="w-64 h-32 bg-black text-white">
+        Fixed units
+      </section>
+      <section class="h-full bg-red-500">
+        Percentage units
+      </section>
+      <section class="h-1/3 w-1/2 bg-blue-500">
+        Viewport units
+      </section>
+    </main>
     <script src="" async defer></script>
   </body>
 </html>
