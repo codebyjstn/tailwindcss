@@ -1,0 +1,5 @@
+bg-gradient-to-b 
+
+from-red-500 
+
+to-yellow-500
